@@ -59,7 +59,7 @@ Build Owner Brief → Send to Owner
 
 ## 🚀 Key Features
 
-- **31 nodes** — most advanced workflow in the cohort
+- **31 nodes** — 4 AI agents + 3 enhancement agents in sequence
 - **20 festivals** in one dropdown — Diwali, Holi, Christmas, Eid, Navratri, Big Billion Days + 14 more
 - **Auto Campaign ID** — FEST-GLOWVEDA-DIWALI-XXXXXX ties Drive, Sheets, emails together
 - **3 AI visuals** uploaded to dedicated Drive folder per campaign
