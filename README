@@ -1,9 +1,7 @@
 # 🎁 AI Festival Campaign Generator PRO — 4-Agent Production Engine
-### Week 13 — Haus of Intelligence Cohort
 
 One form. One festival. 90 seconds. A complete D2C festival campaign — strategy, 50+ assets, 3 AI visuals, 4 languages, competitive intelligence, ROI prediction, QA scored, delivered.
 
----
 
 ## 🎯 What It Does
 
@@ -18,7 +16,6 @@ Takes a single festival campaign form and automatically generates:
 - **Dual email delivery** — mega kit to agency + executive brief to brand owner
 - **Google Sheets CRM** — every campaign logged automatically
 
----
 
 ## 🤖 4 AI Agents + 3 Enhancement Agents
 
@@ -32,11 +29,9 @@ Takes a single festival campaign form and automatically generates:
 | Competitor Ad Spy | Counter-ads against competitor weaknesses | GPT-4o-mini |
 | Festival ROI Predictor | Revenue, CAC, ROAS, break-even forecast | GPT-4o-mini |
 
----
 
 ## 🏗️ Architecture (31 nodes)
 
-```
 Form → Parse+CampaignID → Agent1:Intel → Parse Intel → Build Agent2 Prompt →
 Agent2:50+Copy → Parse Kit → Agent3:FestVisual + Agent3b:StoryVisual + Agent3c:AdBanner →
 Package Images → Create Drive Folder → Attach Binary+FolderID →
@@ -47,9 +42,7 @@ Competitor Ad Spy → Parse Competitor Intel →
 Festival ROI Predictor → Parse ROI →
 Log to Sheets → Build Campaign Kit Email → Send to Agent →
 Build Owner Brief → Send to Owner
-```
 
----
 
 ## ⚙️ Tech Stack
 
@@ -63,7 +56,6 @@ Build Owner Brief → Send to Owner
 | CRM Logging | Google Sheets |
 | Email Delivery | Gmail API |
 
----
 
 ## 🚀 Key Features
 
@@ -77,7 +69,6 @@ Build Owner Brief → Send to Owner
 - **QA gate** — campaign scored before delivery
 - **Error resilience** — fallbacks at every AI parsing stage
 
----
 
 ## 💡 Business Value
 
@@ -85,7 +76,6 @@ Build Owner Brief → Send to Owner
 **8-10 festivals a year:** ₹5,00,000+  
 **This system costs:** nearly ₹0 · 90 seconds
 
----
 
 ## 🔧 Setup
 
@@ -98,16 +88,17 @@ Build Owner Brief → Send to Owner
    - **Google Drive** — OAuth2, create parent folder "AI Festival Campaigns"
 3. Sheet columns: festival, productName, category, productDesc, price, targetAudience, brandName, brandVoice, campaignDuration, competitors, availableOn, ownerName, ownerEmail, agentName, agencyName, agentEmail, campaignId, timestamp, dateGenerated, intel, kit, hasFestImg, hasStoryImg, hasBannerImg, imageCount, qa, driveFolderId, driveFolderLink
 
----
 
 ## 🎬 Demo Product
 
 **GlowVeda 24K Gold Radiance Face Serum** — Diwali campaign. MRP ₹1,299, festival price ₹799. Competitors: Minimalist, Plum, Dot & Key, The Derma Co, Forest Essentials.
 
----
 
 ## 👤 Author
 
-**Ram** — AI Automation Agency founder  
+Built by Ram
+Founder, MissedCallRecovery.org — AI voice receptionist 
+platform for US plumbing and HVAC businesses
+Available for freelance AI automation projects 
 Building done-for-you AI systems for D2C brands and service businesses  
 [GitHub](https://github.com/Ram-cyber-dev)
